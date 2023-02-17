@@ -14,28 +14,17 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-
-  /* border: 1px solid red; */
 }
 
 body {
-  /* width: 100vw; */
-
-  /* height: 100vh; */
   background-color: #e5e5e5;
   overflow-x: hidden;
   margin: 0 auto;
   max-width: 375px;
+  height: 100%;
 }
 
-/* header {
-
-} */
-
 nav {
-  /* padding-left: 1em; */
-
-  /* padding-right: 1em; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -73,23 +62,16 @@ nav {
   background-image: url(./assets/hero-background.svg);
   background-size: cover;
   height: 604px;
+  border-bottom-left-radius: 70px;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
-
-  /* align-items: flex-start; */
   padding: 114px 24px 0 24px;
-
-  /* width: 100%; */
 }
 
 .greeting {
-  /* font-size: 40px;
-  letter-spacing: 0.37px;
-  line-height: 30px;
-  margin-bottom: 0.5em; */
   height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -115,10 +97,11 @@ nav {
 }
 
 .letsconnect {
-  /* margin-top: 4%;
-  margin-bottom: 1%; */
   margin: 4% 0 1% 0;
+  font-family: 'poppins', sans-serif;
   font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .icons {
@@ -126,6 +109,10 @@ nav {
   font-size: 20px;
   padding-top: 0.2em;
   padding-bottom: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
 }
 
 .light-purple {
@@ -136,4 +123,16 @@ nav {
 .h-text {
   color: var(--title-color);
   font-weight: 700;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  padding-left: 24px;
+}
+
+li {
+  list-style: none;
 }
