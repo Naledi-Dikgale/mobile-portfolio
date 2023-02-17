@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>Mobile portfolio</b></h3>
 
 </div>
 
@@ -32,15 +32,15 @@
 - [📝 License](#license)
 
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Mobile Portfolio <a name="MOBILE APP"></a>
 
 
 
-**Hello Microverse** is a project to display hello world
+**Mobile Portfolio** is a project to display a responsive mobile app
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="HTML"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="CSS"></a>
 
 
 
@@ -66,7 +66,7 @@
 
 
 
-- [Live Demo Link](https://naledi-dikgale.github.io/hello-microverse/)
+- [Live Demo Link](https://github.com/Naledi-Dikgale/mobile-portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Naledi-Dikgale/hello-microverse.git
+  git clone https://github.com/Naledi-Dikgale/mobile-portfolio.git
 ```
 
 
@@ -98,7 +98,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Hello_Microverse
+  cd Mobile-portfolio
   npm install
 ```
 
@@ -113,7 +113,6 @@ open index.html in your browser
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Naledi Dikgale**
 
@@ -137,7 +136,7 @@ open index.html in your browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Naledi-Dikgale/hello-microverse/issues).
+Feel free to check the [issues page](https://github.com/Naledi-Dikgale/mobile-portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
