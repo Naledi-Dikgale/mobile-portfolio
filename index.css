@@ -46,6 +46,16 @@ nav {
 .logo {
   text-decoration: none;
   color: var(--calm-purple);
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .hamburger {
@@ -56,39 +66,58 @@ nav {
 
 .main-container {
   margin-top: 0;
+  background-color: #fff;
 }
 
 .intro {
-  background-image: url(mobintro.png);
+  background-image: url(./assets/hero-background.svg);
   background-size: cover;
-  height: max-content;
+  height: 604px;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 10%;
-  padding-top: 40%;
-  width: 100%;
+
+  /* align-items: flex-start; */
+  padding: 114px 24px 0 24px;
+
+  /* width: 100%; */
 }
 
 .greeting {
-  font-size: 40px;
+  /* font-size: 40px;
   letter-spacing: 0.37px;
   line-height: 30px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em; */
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .bio {
-  line-height: 20px;
+  margin-top: 13px;
   width: 95%;
   max-width: 640px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  text-align: justify;
 }
 
 .letsconnect {
-  margin-top: 4%;
-  margin-bottom: 1%;
+  /* margin-top: 4%;
+  margin-bottom: 1%; */
+  margin: 4% 0 1% 0;
   font-size: 16px;
 }
 
@@ -99,7 +128,6 @@ nav {
   padding-bottom: 5em;
 }
 
-/* Helper classes */
 .light-purple {
   color: var(--light-purple);
   font-weight: 500;
@@ -108,100 +136,4 @@ nav {
 .h-text {
   color: var(--title-color);
   font-weight: 700;
-}
-
-.d-text {
-  color: var(--text-color);
-  font-weight: 400;
-}
-
-.info-text {
-  color: var(--info-color);
-  font-weight: 400;
-}
-
-/*
-nav {
-  background-color: white;
-  padding-top: 2em;
-  padding-right: 5em;
-  padding-left: 5em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-style: normal;
-  line-height: 20px;
-} */
-
-/* .nav {
-    transition: all 0.1s ease-in;
-} */
-
-.navlinks {
-  list-style: none;
-  display: flex;
-  gap: 2em;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-#hamburger-check:checked ~ .nav .navlinks {
-  display: block;
-  color: white;
-  font-weight: 700;
-  font-size: x-large;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 18px;
-}
-
-#hamburger-check {
-  display: none;
-}
-
-/* .intro {
-  background-color: white;
-  height: 100vh;
-  width: 100%;
-  border-radius: 0 0 0 100px;
-  background-image: url(intro.png);
-  background-size: cover;
-  box-sizing: border-box;
-} */
-
-/* .intro-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 20%;
-  padding-top: 20%;
-  width: 70%;
-} */
-
-/* .greeting {
-  font-size: 48px;
-  letter-spacing: 0.37px;
-  line-height: 60px;
-} */
-
-/* .bio {
-  line-height: 28px;
-  max-width: 640px;
-} */
-
-/* .letsconnect {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  font-size: 16px;
-} */
-
-/* .icons {
-  color: var(--icon-color);
-  font-size: 20px;
-} */
-
-.icons i {
-  margin-right: 6px;
 }
