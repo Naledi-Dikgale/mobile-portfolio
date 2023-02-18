@@ -129,12 +129,21 @@ nav {
   font-family: 'poppins', sans-serif;
   font-weight: 700;
   width: 295px;
-  height: 36px;
   font-size: 32px;
   color: #172b4d;
   line-height: 44px;
   margin-top: 12px;
   margin-bottom: 50px !important;
+}
+
+.h-text1 {
+  font-size: 40px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  width: 295px;
+  color: #172b4d;
+  line-height: 44px;
+  margin-top: 12px;
 }
 
 .info-text {
@@ -278,6 +287,11 @@ li {
   margin-top: 25px;
 }
 
+.outlined-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 .project-description {
   margin-top: 13px;
   width: 95%;
@@ -292,6 +306,7 @@ li {
 
 .test4 {
   text-align: justify;
+  margin-bottom: 20px;
 }
 
 .about {
@@ -299,7 +314,6 @@ li {
   border-radius: 0 4em 0 0;
   background-size: cover;
   width: 375px;
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -317,6 +331,19 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  margin-bottom: 30px;
+}
+
+.fa-angle-down {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.fa-angle-right {
+  display: flex;
+  justify-content: space-between;
+  color: black;
 }
 
 .about-heading-small {
