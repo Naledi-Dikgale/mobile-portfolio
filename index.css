@@ -283,13 +283,19 @@ li {
   line-height: 24px;
 }
 
-.see-button {
-  margin-top: 25px;
+.btn:hover {
+  background: #6070ff;
+  color: white;
 }
 
-.outlined-button:hover {
-  cursor: pointer;
-  transform: scale(1.05);
+.btn:disabled {
+  color: #5e6c84;
+  border-color: #5e6c84;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: white;
 }
 
 .project-description {
