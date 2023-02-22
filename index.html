@@ -252,9 +252,9 @@
           I’d love to help with it. 
       </p>
       <form action="https://formspree.io/f/meqwgrwl" method="post">
-        <input class="text-inputs" type="text" name="user_name"placeholder="Full Name">
-        <input class="text-inputs" type="email" name="user_email" placeholder="Email">
-        <input class="message-input" type="text" name="text_area" multiple placeholder="Write your message here">
+        <input class="text-inputs" type="text" name="user_name"placeholder="Full Name" maxlength="30" required>
+        <input class="text-inputs" type="email" name="user_email" placeholder="Email" required>
+        <textarea class="message-input" type="text" name="text_area" multiple placeholder="Write your message here" maxlength="500" required></textarea>
         <button type="submit" class="outlined-button btn">Get in touch</button>
     </form>
     </footer>
