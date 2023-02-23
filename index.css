@@ -214,6 +214,10 @@ li {
   margin-top: 114px;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .test2 {
   margin-bottom: 0;
   padding-bottom: 44px;
@@ -462,4 +466,69 @@ footer form .message-input {
   right: 38px;
   top: 15px;
   bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-only {
+    display: inline;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-preview {
+    width: 100%;
+    height: 400px;
+    display: block;
+    padding: 0;
+  }
+
+  .project {
+    width: 95%;
+    height: min-content;
+  }
+
+  .project-info {
+    padding-left: 1em;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .project-metadata {
+    display: flex;
+    font-size: 13px;
+    gap: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .navlinks {
+    /* display: none; */
+  }
+
+  .ham {
+    display: block;
+  }
+
+  .navlinks {
+    padding: 0;
+    top: 85px;
+    left: -100px;
+    text-align: center;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 100vh;
+    gap: 1em;
+  }
+
+  #hamburger:checked ~ .navlinks {
+    left: 0;
+  }
 }
