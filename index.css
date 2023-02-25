@@ -22,21 +22,11 @@ body {
   background-color: #dfe1e6;
   overflow-x: hidden;
   margin: 0 auto;
-
-  /* width: 375px; */
   height: auto;
 }
 
 .d-flex {
   display: flex;
-}
-
-nav {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 24px 10px 24px;
-  background-color: #fff; */
 }
 
 .overall-navi .nav-1 {
@@ -102,8 +92,6 @@ nav {
 .bio {
   margin-top: 13px;
   width: 95%;
-
-  /* width: 640px; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -593,7 +581,6 @@ footer form .message-input {
     margin: 12px;
   }
 
-  /* projects */
   .project-cards {
     display: none;
   }
@@ -645,7 +632,6 @@ footer form .message-input {
     flex-direction: row-reverse;
   }
 
-  /* about */
   .about {
     width: 100%;
     align-items: flex-start !important;
@@ -691,7 +677,6 @@ footer form .message-input {
     padding: 10px;
   }
 
-  /* footer */
   .cont {
     background-color: white;
     width: 100%;
