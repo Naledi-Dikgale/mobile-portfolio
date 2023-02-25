@@ -121,12 +121,6 @@ open index.html in your browser
 - LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 
 
- **JOSECK OSUGO**
-
-- GitHub: [@githubhandle](https://github.com/0sugo)
-- Twitter: [@twitterhandle](https://twitter.com/osugo5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
