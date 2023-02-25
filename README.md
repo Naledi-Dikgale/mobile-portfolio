@@ -1,16 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Mobile portfolio</b></h3>
-
-</div>
-
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -121,12 +108,6 @@ open index.html in your browser
 - LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 
 
- **JOSECK OSUGO**
-
-- GitHub: [@githubhandle](https://github.com/0sugo)
-- Twitter: [@twitterhandle](https://twitter.com/osugo5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -167,7 +148,5 @@ I would like to thank my teammates.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](/MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
