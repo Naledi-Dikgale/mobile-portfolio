@@ -53,7 +53,7 @@
 
 
 
-- [Live Demo Link](https://github.com/Naledi-Dikgale/mobile-portfolio)
+- [Live Demo Link](https://naledi-dikgale.github.io/mobile-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
