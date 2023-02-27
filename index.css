@@ -23,16 +23,6 @@ body {
   height: auto;
 }
 
-.logo {
-  transition: transform 0.3s ease-in-out;
-
-}
-
-.logo:hover {
-  transform:rotate(15deg) scale(1.2);
-  
-}
-
 .d-flex {
   display: flex;
 }
@@ -63,6 +53,11 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(15deg) scale(1.2);
 }
 
 .hamburger {
