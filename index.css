@@ -23,6 +23,16 @@ body {
   height: auto;
 }
 
+.logo {
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.logo:hover {
+  transform:rotate(15deg) scale(1.2);
+  
+}
+
 .d-flex {
   display: flex;
 }
