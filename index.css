@@ -48,16 +48,17 @@ body {
 .navbar {
   cursor: pointer;
 }
+
 .hamburger-menu {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 70px; 
+  padding-top: 70px;
   width: 100%;
   height: 100%;
   color: white;
   background-color: rgba(74, 85, 189, 0.8);
-  backdrop-filter: blur(5px)
+  backdrop-filter: blur(5px);
 }
 
 .hamburger-menu .content {
@@ -69,6 +70,7 @@ body {
   width: 80%;
   font-size: 2rem;
 }
+
 .hamburger-menu a {
   text-decoration: none;
   color: white;
@@ -126,8 +128,6 @@ body {
   justify-content: space-between;
   padding: 10px 50px 10px 24px;
   width: 100vw !important;
-
-  /* background-color: #fff; */
 }
 
 .desktop-navi {
@@ -662,8 +662,6 @@ footer form .message-input {
   .nav-1 {
     margin-left: 5%;
   }
-
-
 
   .nav-2 {
     margin-right: 5%;
