@@ -36,8 +36,13 @@ body {
   background-color: #fff;
 }
 
-.desktop-navi {
+.overall-navi .nav-1 nav .fa-xmark {
   display: none;
+}
+
+.overall-navi .nav-1 nav .fa-bars {
+  display: inline;
+  font-size: x-large;
 }
 
 .logo {
@@ -54,6 +59,58 @@ body {
   align-items: center;
   text-align: center;
   transition: transform 0.3s ease-in-out;
+}
+
+.dropdown .logo {
+  color: transparent;
+}
+
+.overall-navi.dropdown {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--calm-purple) !important;
+}
+
+.overall-navi.dropdown .nav-1 {
+  background-color: var(--calm-purple) !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px 10px 24px;
+  width: 100vw !important;
+
+  /* background-color: #fff; */
+}
+
+.desktop-navi {
+  display: none;
+}
+
+.overall-navi.dropdown .nav-1 nav .fa-bars {
+  display: none;
+}
+
+.overall-navi.dropdown .nav-1 nav .fa-xmark {
+  display: inline !important;
+  color: white;
+  font-size: x-large;
+}
+
+.overall-navi.dropdown .nav-2 nav .desktop-navi {
+  display: flex;
+  flex-direction: column;
+  left: 0 !important;
+  color: white;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  gap: 1em;
 }
 
 .logo:hover {
