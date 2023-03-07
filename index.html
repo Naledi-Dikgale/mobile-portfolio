@@ -26,32 +26,33 @@
 
 <body>
   <div class="banner-wrap">
-
+    <div class="hamburger-menu">
+      <ul class="content">
+        <span class="close"><a href=""></a>&times;</span>
+        <li ><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+        <li ><a href="#about" id="about-link">About</a></li>
+        <li ><a href="#contact" id="contact-link">Contact Me</a></li>
+      </ul>
+    </div>
     <header class="overall-navi">
       <div class="nav-1">
         <a href="/" class="logo">My Logo</a>
-        <nav class="navbar">
-          <img src="./assets/Menu.svg" alt="hamburger Icon" class="hamburger">
+        <nav class="navbar hamburger">
+          <i class="fa-solid fa-xmark"></i><i class="fa-solid fa-bars"></i>
         </nav>
-
       </div>
-
       <div class="nav-2">
         <nav>
           <ul class="desktop-navi">
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+            <li><a href="#about" class="nav-links">About</a></li>
+            <li><a href="#contact" class="nav-links">Contact</a></li>
           </ul>
         </nav>
-
       </div>
-
-
-
     </header>
 
-    <section class="intro">
+    <section class="intro" id="portfolio">
       <div class="intro-text first">
         <h1 class="greeting h-text1">I'm Naledi<br>Glad to see you!</h1>
 
@@ -324,7 +325,7 @@
   </div>
 
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="about-intro-text">
       <div class="about-1">
         <h2 class="project-name h-text1">About <br> Myself</h2>
@@ -411,7 +412,7 @@
 
     </div>
   </section>
-  <div class="cont">
+  <div class="cont" id="contact">
     <footer class="footer">
       <div>
         <span class="footer span">Contact me</span>
@@ -438,6 +439,8 @@
     </footer>
   </div>
   </main>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

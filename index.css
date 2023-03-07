@@ -36,8 +36,60 @@ body {
   background-color: #fff;
 }
 
-.desktop-navi {
+.overall-navi .nav-1 nav .fa-xmark {
   display: none;
+}
+
+.overall-navi .nav-1 nav .fa-bars {
+  display: inline;
+  font-size: x-large;
+}
+
+.navbar {
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(85, 101, 243, 0.7);
+  background-color: rgba(41, 58, 208, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.hamburger-menu .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  font-size: 2rem;
+}
+
+.hamburger-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.hamburger-menu .close {
+  align-self: flex-end;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hamburger-menu .close:hover,
+.hamburger-menu .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo {
@@ -54,6 +106,56 @@ body {
   align-items: center;
   text-align: center;
   transition: transform 0.3s ease-in-out;
+}
+
+.dropdown .logo {
+  color: transparent;
+}
+
+.overall-navi.dropdown {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--calm-purple) !important;
+}
+
+.overall-navi.dropdown .nav-1 {
+  background-color: var(--calm-purple) !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px 10px 24px;
+  width: 100vw !important;
+}
+
+.desktop-navi {
+  display: none;
+}
+
+.overall-navi.dropdown .nav-1 nav .fa-bars {
+  display: none;
+}
+
+.overall-navi.dropdown .nav-1 nav .fa-xmark {
+  display: inline !important;
+  color: white;
+  font-size: x-large;
+}
+
+.overall-navi.dropdown .nav-2 nav .desktop-navi {
+  display: flex;
+  flex-direction: column;
+  left: 0 !important;
+  color: white;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  gap: 1em;
 }
 
 .logo:hover {
@@ -500,6 +602,10 @@ footer form .message-input {
   }
 
   .hamburger {
+    display: none;
+  }
+
+  .hamburger-menu {
     display: none;
   }
 
