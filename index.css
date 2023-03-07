@@ -341,6 +341,17 @@ li {
   border: 1px solid #dfe1e6;
 }
 
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+
+.close-btn img {
+  width: 50%;
+}
+
 .skills-list {
   display: flex;
   flex-direction: row;
@@ -373,6 +384,11 @@ li {
   border-radius: 0.5em;
   color: #6070ff;
   margin: 0.5em 0.35em 0.5em 0;
+}
+
+.user-button {
+  display: flex;
+  justify-content: space-between;
 }
 
 .outlined-button {

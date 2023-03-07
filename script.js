@@ -53,32 +53,45 @@ function popup() {
   modalContainer.style.display = 'block';
   popupCard.innerHTML = `
   <h2 class="h-text-name">${cardInfo.name}</h2>
+  <a class="close-btn">
+  <img src="./assets/cross-icon.png" alt="cross-icon" class="cross-icon">  
+</a>
+<ul class="skills-list">
+  <li class="checkbox"><span class="info-text">${cardInfo.company}</span></li>
+  <li class="checkbox"><i class="ri-checkbox-blank-circle-fill dots"></i>
+    <span class="info-text">${cardInfo.role}</span>
+  </li>
+  <li class="checkbox"> <i class="ri-checkbox-blank-circle-fill dots"></i>
+    <span class="info-text">${cardInfo.year}</span>
+  </li>
+</ul>
 
-  <img src="${cardInfo.imageURL}" alt="Desktop Project Live Preview" class="project-preview">
+<img src="${cardInfo.imageURL}" alt="Desktop Project Live Preview" class="project-preview">  
 
-  <ul class="skills-list">
-    <li class="checkbox"><span class="info-text">${cardInfo.infoText}</span></li>
-    <li class="checkbox"><i class="ri-checkbox-blank-circle-fill dots"></i>
-      <span class="info-text">${cardInfo.role}</span>
-    </li>
-    <li class="checkbox"> <i class="ri-checkbox-blank-circle-fill dots"></i>
-      <span class="info-text">${cardInfo.year}</span>
-    </li>
+<div class="project-info">
+  <p class="project-description">${cardInfo.description}</p>
+
+  <ul class="tech-list">
+    <li class="project-tech">${cardInfo.tech[0]}</li>
+    <li class="project-tech">${cardInfo.tech[1]}</li>
+    <li class="project-tech">${cardInfo.tech[2]}</li>
   </ul>
-
-  <div class="project-info">
-    <p class="project-description">${cardInfo.description}</p>
-
-    <ul class="tech-list">
-      <li class="project-tech">${cardInfo.tech[0]}</li>
-      <li class="project-tech">${cardInfo.tech[1]}</li>
-      <li class="project-tech">${cardInfo.tech[2]}</li>
-    </ul>
+  <div class="user-button">
     <button class="outlined-button ${cardInfo.firstBtnId}">See Live</button>
     <button class="outlined-button ${cardInfo.secondBtnId}">See Source</button>
-
   </div>
+</div>
 `;
 }
+
+firstCardBtn.addEventListener('click', popup);
+
+document.querySelector('.cards-modal').addEventListener('click', (e) => {
+
+if (e.target.className === 'cross-icon' ) {
+  modalContainer.style.display = 'none' 
+}
+})
+
 
 firstCardBtn.addEventListener('click', popup);
