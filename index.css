@@ -416,6 +416,16 @@ li {
     left: 0;
     margin: 0;
     padding: 0;
+    animation: popupSlideDown 0.3s;
+  }
+
+  @keyframes popupSlideDown {
+    from {
+      transform: translateY(-50%);
+    }
+    to {
+      transform: translateY(0);
+    }
   }
 
   .modal-desk {
