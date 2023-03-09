@@ -24,8 +24,6 @@ body {
   background-color: #dfe1e6;
   overflow-x: hidden;
   margin: 0 auto;
-
-  /* height: auto; */
   scroll-behavior: smooth;
 }
 
@@ -366,7 +364,7 @@ li {
 
 .modal-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .close-modal {
@@ -470,7 +468,8 @@ li {
   }
 
   .desk-modal-img {
-    width: 55%;
+    width: 100%;
+    margin: 0 50px;
   }
 
   .d-p-info {
@@ -490,10 +489,6 @@ li {
     flex-direction: column;
     width: max-content;
     align-items: center;
-  }
-
-  .modal-buttons button {
-    margin-left: 2em;
   }
 }
 
@@ -851,6 +846,10 @@ footer form .message-input {
   .project-info button {
     padding: 12px;
     border-radius: 8px;
+  }
+
+  .modal-buttons button {
+    margin-left: 2em;
   }
 
   .card-2 {
