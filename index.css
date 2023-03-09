@@ -470,26 +470,28 @@ li {
   .desk-modal-img {
     width: 100%;
     margin: 0 50px;
+    aspect-ratio: 16/9;
   }
+}
 
-  .d-p-info {
-    display: flex !important;
-    width: 100%;
-  }
+.d-p-info {
+  display: flex !important;
+  width: 100%;
+}
 
-  .d-modal-info {
-    color: #344563;
-    font-size: 2vw;
-    margin: 0;
-    width: 100%;
-  }
+.d-modal-info {
+  color: #344563;
+  font-size: 2vw;
+  margin: 0;
+  width: 100%;
+}
 
-  .tech-and-buttons {
-    display: flex;
-    flex-direction: column;
-    width: max-content;
-    align-items: center;
-  }
+.tech-and-buttons {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  align-items: center;
+  min-width: 400px;
 }
 
 .btn {
@@ -518,7 +520,8 @@ li {
 .project-description {
   margin-top: 13px;
   width: 95%;
-  max-width: 640px;
+
+  /* max-width: 640px; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -846,6 +849,18 @@ footer form .message-input {
   .project-info button {
     padding: 12px;
     border-radius: 8px;
+  }
+
+  .desk-modal-img {
+    width: -webkit-fill-available;
+  }
+
+  .d-modal-info {
+    width: auto;
+  }
+
+  .modal-desk {
+    width: 100vw;
   }
 
   .modal-buttons button {
