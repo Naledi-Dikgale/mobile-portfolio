@@ -381,3 +381,42 @@ const emailInput = document.querySelector('#email');
   //   contactError.textContent = "Email addressis in lowercase";
   // };
   }
+
+  //local storage starts
+
+  // ------- Form Local Storage -------- //
+
+const nameInput = document.querySelector('#name');
+// emailInput declared before
+const messageInput = document.querySelector('#description');
+
+let form = {};
+function populateStorage() {
+  form.name = nameInput.value;
+  form.email = emailInput.value;
+  form.message = messageInput.value;
+  const formStr = JSON.stringify(form);
+  localStorage.setItem('form', formStr);
+}
+
+function restoreForm() {
+  const formStr = localStorage.getItem('form');
+  form = JSON.parse(formStr);
+  nameInput.value = form.name;
+  emailInput.value = form.email;
+  messageInput.value = form.message;
+}
+
+if (localStorage.getItem('form')) {
+  restoreForm();
+} else {
+  populateStorage();
+}
+
+nameInput.addEventListener('change', populateStorage);
+emailInput.addEventListener('change', populateStorage);
+messageInput.addEventListener('change', populateStorage);
+
+contactForm.addEventListener('submit', () => {
+  localStorage.setItem('form', '');
+});
