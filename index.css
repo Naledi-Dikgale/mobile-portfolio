@@ -931,10 +931,6 @@ footer form .message-input {
     width: 100%;
   }
 
-  .contact-error {
-    margin: 0 10%;
-  }
-
   .footer {
     display: flex;
     flex-direction: column;
@@ -958,5 +954,8 @@ footer form .message-input {
 
   .footer span {
     margin-top: 142px;
+  }
+  .footer .contact-error {
+    margin-top: 0;
   }
 }
