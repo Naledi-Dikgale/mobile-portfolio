@@ -619,6 +619,16 @@ li {
   background-color: white;
 }
 
+.contact-error {
+  display: none;
+  align-self: flex-start;
+  font-size: 13px;
+  padding: 1% 3%;
+  background-color: rgb(238, 85, 85);
+  color: #fff;
+  border-radius: 8px;
+}
+
 footer {
   padding-top: 40%;
   padding-bottom: 40%;
@@ -944,5 +954,9 @@ footer form .message-input {
 
   .footer span {
     margin-top: 142px;
+  }
+
+  .footer .contact-error {
+    margin-top: 0;
   }
 }

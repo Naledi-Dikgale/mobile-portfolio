@@ -200,16 +200,16 @@
         </p>
       </div>
       <div class="contact-form-inputs">
-        <form class="form-1" action="https://formspree.io/f/meqwgrwl" method="post">
-          <input class="text-inputs" type="text" name="user_name" placeholder="Full Name" maxlength="30" required>
-          <input class="text-inputs" type="email" name="user_email" placeholder="Email" required>
-          <textarea class="message-input" type="text" name="text_area" multiple placeholder="Write your message here"
+        <form class="form-1" action="https://formspree.io/f/meqwgrwl" method="post" class="contact-form">
+          <input class="text-inputs" type="text" name="user_name" id="name" placeholder="Full Name" maxlength="30" required>
+          <input class="text-inputs" type="email" name="user_email" id="email" placeholder="Email" required>
+          <textarea class="message-input" type="text" name="text_area" id="message" multiple placeholder="Write your message here"
             maxlength="500" required></textarea>
-          <button type="submit" class="outlined-button btn">Get in touch</button>
+            <span class="contact-error">error message</span>
+          <button type="submit" onclick="submitForm(event)" class="outlined-button btn">Get in touch</button>
         </form>
 
       </div>
-
 
     </footer>
   </div>
