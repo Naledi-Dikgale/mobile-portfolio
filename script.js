@@ -374,10 +374,4 @@ const emailInput = document.querySelector('#email');
     event.preventDefault();
 
   }
-
-  // else {
-  //   contactError.style.display = 'block';
-  //   contactError.style.backgroundColor = 'green';
-  //   contactError.textContent = "Email addressis in lowercase";
-  // };
   }
