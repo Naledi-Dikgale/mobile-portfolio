@@ -122,8 +122,6 @@ open index.html in your browser
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add_footer]**
-- [ ] **[Add_navbar]**
-- [ ] **[Add_images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
