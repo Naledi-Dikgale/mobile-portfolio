@@ -105,9 +105,8 @@ open index.html in your browser
 
 - GitHub: [@Naledi-Dikgale](https://github.com/Naledi-Dikgale)
 - Twitter: [@chichiTheStar](https://twitter.com/ChichiTheStar)
-- LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale-068423159/)
- JOSECK OSUGO
-
+- LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale/)
+- Portfolio: [naledi-dikgale](https://naledi-dikgale.netlify.app/)
 **JOSECK OSUGO**
 
 - GitHub: [0sugo](https://github.com/0sugo)

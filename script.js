@@ -169,11 +169,11 @@ projects.forEach(element => {
 var desktopProjects = [
   {
       imageURL: "./assets/capstone1.jpg",
-      name: "Wine Tasting Party",
+      name: "Wine Tasting Party Invitation",
       company: "NALEDI",
       role: "Full Stack Dev",
       year: "2023",
-      description: "A Wine Tasting Party invitation created with Tailwind framework, JavaScript and HTML",
+      description: "A Wine Tasting Party invitation is a is a two page website created with JavaScript and Tailwind ",
       tech: ["html", "css", "javascript"],
       projectURL: "https://naledi-dikgale.github.io/capstone1-project/",
       id: "d1",
@@ -205,13 +205,13 @@ var desktopProjects = [
   },
   {
       imageURL: "./assets/project-4.png",
-      name: "Uber Navigation",
-      company: "Uber",
-      role: "Lead Developer",
+      name: "Stock Market App",
+      company: "NALEDI",
+      role: "Front End Dev",
       year: "2023",
-      description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-      tech: ["html", "Ruby on rails", "css", "javascript"],
-      projectURL: "",
+      description: "Stock-Market Project Stock-Market is an application that displays a list of businesses and the overview of their finances, allows the user to filter and search for details of specific business.",
+      tech: ["React", "JavaScript", "HTML", "CSS"],
+      projectURL: "https://github.com/Naledi-Dikgale/react-capstone.git",
       id: "d4",
       btnId: "dbtn4"
   }
