@@ -168,50 +168,50 @@ projects.forEach(element => {
 
 var desktopProjects = [
   {
-      imageURL: "./assets/project-1.png",
-      name: "Tonic",
-      company: "CANOPY",
-      role: "Back End Dev",
-      year: "2015",
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+      imageURL: "./assets/capstone1.jpg",
+      name: "Wine Tasting Party Invitation",
+      company: "NALEDI",
+      role: "Full Stack Dev",
+      year: "2023",
+      description: "A Wine Tasting Party invitation is a is a two page website created with JavaScript and Tailwind ",
       tech: ["html", "css", "javascript"],
-      projectURL: "",
+      projectURL: "https://naledi-dikgale.github.io/capstone1-project/",
       id: "d1",
       btnId: "dbtn1"
   },
   {
-      imageURL: "./assets/project-2.png",
-      name: "Multi-Post Stories",
-      company: "CANOPY",
+      imageURL: "./assets/todo-lis.jpg",
+      name: "To Do List App",
+      company: "NALEDI",
       role: "Full Stack Dev",
-      year: "2015",
-      description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      year: "2023",
+      description: "This Todo-list app was created using JavaScript, Items can be added, edited, stored and deleted from the list.",
       tech: ["html", "css", "javascript"],
-      projectURL: "",
+      projectURL: "https://naledi-dikgale.github.io/todo-list/",
       id: "d2",
       btnId: "dbtn2"
   },
   {
       imageURL: "./assets/project-3.png",
-      name: "Facebook 360",
-      company: "FACEBOOK",
+      name: "Awesome Books",
+      company: "NALEDI",
       role: "Full Stack Dev",
-      year: "2015",
-      description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-      tech: ["html", "Ruby on rails", "css", "javascript"],
+      year: "2023",
+      description: "Awesome Books App displays current date and time. It is built with JavaScript, users can add, edit, save and delete books from the list.",
+      tech: ["html", "css", "javascript"],
       projectURL: "",
       id: "d3",
       btnId: "dbtn3"
   },
   {
       imageURL: "./assets/project-4.png",
-      name: "Uber Navigation",
-      company: "Uber",
-      role: "Lead Developer",
-      year: "2015",
-      description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-      tech: ["html", "Ruby on rails", "css", "javascript"],
-      projectURL: "",
+      name: "Stock Market App",
+      company: "NALEDI",
+      role: "Front End Dev",
+      year: "2023",
+      description: "Stock-Market Project Stock-Market is an application that displays a list of businesses and the overview of their finances, allows the user to filter and search for details of specific business.",
+      tech: ["React", "JavaScript", "HTML", "CSS"],
+      projectURL: "https://github.com/Naledi-Dikgale/react-capstone.git",
       id: "d4",
       btnId: "dbtn4"
   }
@@ -375,3 +375,42 @@ const emailInput = document.querySelector('#email');
 
   }
   }
+
+  //local storage starts
+
+  // ------- Form Local Storage -------- //
+
+const nameInput = document.querySelector('#name');
+// emailInput declared before
+const messageInput = document.querySelector('#description');
+
+let form = {};
+function populateStorage() {
+  form.name = nameInput.value;
+  form.email = emailInput.value;
+  form.message = messageInput.value;
+  const formStr = JSON.stringify(form);
+  localStorage.setItem('form', formStr);
+}
+
+function restoreForm() {
+  const formStr = localStorage.getItem('form');
+  form = JSON.parse(formStr);
+  nameInput.value = form.name;
+  emailInput.value = form.email;
+  messageInput.value = form.message;
+}
+
+if (localStorage.getItem('form')) {
+  restoreForm();
+} else {
+  populateStorage();
+}
+
+nameInput.addEventListener('change', populateStorage);
+emailInput.addEventListener('change', populateStorage);
+messageInput.addEventListener('change', populateStorage);
+
+contactForm.addEventListener('submit', () => {
+  localStorage.setItem('form', '');
+});
