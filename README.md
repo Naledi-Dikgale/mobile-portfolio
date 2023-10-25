@@ -54,6 +54,7 @@
 
 
 - [Live Demo Link](https://naledi-dikgale.github.io/mobile-portfolio/)
+- https://www.loom.com/share/2dfc5ad7e3674c6480ae31e7881b68fd
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,6 +108,7 @@ open index.html in your browser
 - Twitter: [@chichiTheStar](https://twitter.com/ChichiTheStar)
 - LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale/)
 - Portfolio: [naledi-dikgale](https://naledi-dikgale.netlify.app/)
+
 **JOSECK OSUGO**
 
 - GitHub: [0sugo](https://github.com/0sugo)
@@ -120,8 +122,6 @@ open index.html in your browser
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add_footer]**
-- [ ] **[Add_navbar]**
-- [ ] **[Add_images]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

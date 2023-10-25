@@ -372,8 +372,8 @@ const emailInput = document.querySelector('#email');
     contactError.style.backgroundColor = 'red';
     contactError.textContent = "Email address should be lowercase";
     event.preventDefault();
-
   }}
+
 
   //local storage starts
 
