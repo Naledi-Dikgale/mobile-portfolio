@@ -373,14 +373,7 @@ const emailInput = document.querySelector('#email');
     contactError.textContent = "Email address should be lowercase";
     event.preventDefault();
 
-  }
-
-  // else {
-  //   contactError.style.display = 'block';
-  //   contactError.style.backgroundColor = 'green';
-  //   contactError.textContent = "Email addressis in lowercase";
-  // };
-  }
+  }}
 
   //local storage starts
 
