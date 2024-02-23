@@ -55,7 +55,6 @@
 
 - [Live Demo Link](https://naledi-dikgale.github.io/mobile-portfolio/)
  
-- https://www.loom.com/share/2dfc5ad7e3674c6480ae31e7881b68fd
 - <!-- Video demo [here](https://www.loom.com/share/2dfc5ad7e3674c6480ae31e7881b68fd) -->
 
 
